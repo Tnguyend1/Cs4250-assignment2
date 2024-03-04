@@ -15,11 +15,11 @@ from psycopg2 import *
 def connectDataBase():
 
     # Create a database connection object using psycopg2
-    DB_name = "corpus"
-    DB_user = "postgres"
-    DB_pass = "123"
-    DB_host = "localhost"
-    DB_port = "5432"
+    DB_name = "your database name"
+    DB_user = "your username"
+    DB_pass = "your password"
+    DB_host = "your host"
+    DB_port = "your port"
     try:
         conn = connect(
             database=DB_name,
